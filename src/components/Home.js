@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselComp from "./Carousel";
-import Challenge1DesktopDesign from "../Challenge1/design/desktop-design.jpg";
-import Challenge1MobileDesign from "../Challenge1/design/desktop-preview.jpg";
+import Challenge1DesktopDesign from "../StatsPreview/design/desktop-design.jpg";
+import Challenge1MobileDesign from "../StatsPreview/design/desktop-preview.jpg";
 
 const Home = () => {
   return (
