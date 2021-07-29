@@ -10,7 +10,7 @@ import {
 
 const App = () => {
   return (
-    <div className="">
+    <div role="main" className="">
       <Router>
         <Menu />
         <Switch>

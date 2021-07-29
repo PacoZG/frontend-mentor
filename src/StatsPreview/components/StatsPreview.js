@@ -4,9 +4,12 @@ import MobileImage from "../images/image-header-mobile.jpg";
 
 const StatsPreview = () => {
   return (
-    <div className=" bg-blue-1400 min-w-full ">
+    <div role="main" className=" bg-blue-1400 min-w-full ">
       {/* Mobile View */}
-      <div className="flex sm:hidden flex-col-reverse justify-center items-center p-4 pt-20 pb-20 ">
+      <div
+        role="banner"
+        className="flex sm:hidden flex-col-reverse justify-center items-center p-4 pt-20 pb-20 "
+      >
         <div className=" bg-blue-1100 p-10 rounded-b-md">
           <h1 className="text-white text-2xl xl:text-3xl font-bold text-center">
             Get <span className=" text-violet-200">insights</span> that help
@@ -43,7 +46,10 @@ const StatsPreview = () => {
         </div>
       </div>
       {/* Desktop View */}
-      <div className="hidden sm:flex flex-row justify-center items-center pt-40 pb-40 ">
+      <div
+        role="banner"
+        className="hidden sm:flex flex-row justify-center items-center pt-40 pb-40 "
+      >
         <div className=" bg-blue-1100 p-12 rounded-l-md h-80 w-96">
           <h1 className="text-white text-3xl font-bold text-left">
             Get <span className=" text-violet-200">insights</span> that help
