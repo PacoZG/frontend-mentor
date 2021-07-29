@@ -14,13 +14,13 @@ const CarouselComp = ({ img1, img2 }) => {
         </Link>
 
         <Carousel.Caption>
-          <h3 className="text-sm">Desktop View</h3>
+          <h1 className="text-sm">Desktop View</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100 h-1/2" src={img2} alt="Second slide" />
         <Carousel.Caption>
-          <h3 className="text-sm">Mobile View</h3>
+          <h1 className="text-sm">Mobile View</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

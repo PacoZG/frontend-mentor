@@ -1,4 +1,4 @@
-import StatsPreview from "./Challenge1/components/StatsPreview";
+import StatsPreview from "./StatsPreview/components/StatsPreview";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
 import {
