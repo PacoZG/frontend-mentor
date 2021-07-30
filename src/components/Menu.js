@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div role="menu" className=" bg-gray-700 border-b-2 border-black">
+    <div
+      role="menu"
+      className=" bg-gray-700 border-b-2 border-black w-screen z-50 absolute"
+    >
       <div
         role="navigation"
         className="flex items-center justify-center space-x-6"

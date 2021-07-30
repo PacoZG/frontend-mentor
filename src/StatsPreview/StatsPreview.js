@@ -1,6 +1,6 @@
 import React from "react";
-import DesktopImage from "../images/image-header-desktop.jpg";
-import MobileImage from "../images/image-header-mobile.jpg";
+import DesktopImage from "./images/image-header-desktop.jpg";
+import MobileImage from "./images/image-header-mobile.jpg";
 
 const StatsPreview = () => {
   return (

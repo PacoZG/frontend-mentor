@@ -18,7 +18,12 @@ const CarouselComp = ({ img1, img2 }) => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100 h-1/2" src={img2} alt="Second slide" />
+        <Link
+          className="text-gray-200 hover:text-indigo-300 hover:underline h-60"
+          to="/profile_card"
+        >
+          <img className="d-block w-100 h-1/2" src={img2} alt="Second slide" />
+        </Link>
         <Carousel.Caption>
           <h1 className="text-sm">Mobile View</h1>
         </Carousel.Caption>

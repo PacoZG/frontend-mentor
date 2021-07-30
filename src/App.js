@@ -1,6 +1,7 @@
-import StatsPreview from "./StatsPreview/components/StatsPreview";
+import StatsPreview from "./StatsPreview/StatsPreview";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
+import ProfileCard from "./ProfileCard/ProfileCard";
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,9 @@ const App = () => {
           </Route>
           <Route path="/stats_preview">
             <StatsPreview />
+          </Route>
+          <Route path="/profile_card">
+            <ProfileCard />
           </Route>
         </Switch>
       </Router>
