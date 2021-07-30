@@ -13,10 +13,20 @@ module.exports = {
         blue: {
           1100: "#211F33",
           1400: "#0D0E19",
+          desaturated: "hsl(229, 23%, 23%)",
+          graish: "hsl(227, 10%, 46%)",
         },
         cyan: {
-          1000: "#28959F",
+          1000: "hsl(185, 75%, 39%)",
         },
+        gray: {
+          dark: "hsl(0, 0%, 59%)",
+        },
+      },
+      fontFamily: {
+        lexend: "'Lexend Deca', sans-serif",
+        inter: "'Inter', sans-serif",
+        kumbh: "'Kumbh Sans', sans-serif",
       },
     },
     screens: {
@@ -61,6 +71,7 @@ module.exports = {
       12: "3rem",
       14: "3.5rem",
       16: "4rem",
+      18: "4.75rem",
       20: "5rem",
       24: "6rem",
       28: "7rem",
@@ -266,8 +277,6 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      inter: ["inter", "serif"],
-      lexend: ["lexend", "serif"],
       sans: [
         "ui-sans-serif",
         "system-ui",
