@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CarouselComp from "./Carousel";
 import StatsPreview from "../StatsPreview/design/desktop-design.jpg";
 import ProfileCard from "../ProfileCard/design/desktop-design.jpg";
+import ThreeCP from "../3ColumnPreview/design/desktop-design.jpg";
 
 const Home = () => {
   return (
@@ -16,22 +16,26 @@ const Home = () => {
           challenges shown on their own page
         </p>
       </div>
-      <div className="hidden sm:flex flex-col sm:flex-row items-center p-4 sm:p-16">
-        <CarouselComp img1={StatsPreview} img2={ProfileCard} />
-      </div>
-      <div className="sm:hidden flex flex-col items-center p-3 space-y-2">
+      <div className="flex items-center flex-wrap justify-center p-3 sm:space-x-2 space-y-2 sm:space-y-0">
         <Link className="" to="/stats_preview">
           <img
-            className="border-4 border-yellow-600 rounded-lg"
+            className="border-4 border-yellow-600 rounded-lg h-48 w-80"
             src={StatsPreview}
             alt="First slide"
           />
         </Link>
         <Link to="/profile_card">
           <img
-            className="border-4 border-yellow-600 rounded-lg"
+            className="border-4 border-yellow-600 rounded-lg h-48 w-80"
             src={ProfileCard}
             alt="Second slide"
+          />
+        </Link>
+        <Link to="/3_column_preview">
+          <img
+            className="border-4 border-yellow-600 rounded-lg h-48 w-80"
+            src={ThreeCP}
+            alt="Third slide"
           />
         </Link>
       </div>

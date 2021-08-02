@@ -1,7 +1,8 @@
-import StatsPreview from "./StatsPreview/StatsPreview";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
+import StatsPreview from "./StatsPreview/StatsPreview";
 import ProfileCard from "./ProfileCard/ProfileCard";
+import TCP from "./3ColumnPreview/3ColumnPreview";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,9 @@ const App = () => {
           </Route>
           <Route path="/profile_card">
             <ProfileCard />
+          </Route>
+          <Route Path="/3_column_preview">
+            <TCP />
           </Route>
         </Switch>
       </Router>

@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Screenshot](./images/desktop.png "Stats Preview")
-![Mobile Screenshot](./images/mobile.png "Stats Preview")
+![Desktop Screenshot](./screenshots/desktop.png "Stats Preview")
+![Mobile Screenshot](./screenshots/mobile.png "Stats Preview")
 
 ### Links
 

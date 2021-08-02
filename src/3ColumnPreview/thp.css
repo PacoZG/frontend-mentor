@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  --bg-orange: hsl(31, 77%, 52%);
+  --bg-cyan: hsl(184, 100%, 22%);
+  --bg-dark-cyan: hsl(179, 100%, 13%);
+  --text-white-transparent: hsla(0, 0%, 100%, 0.75);
+  --text-light-gray: hsl(0, 0%, 95%);
+}
+
+img {
+  width: 55px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 0px;
+  width: 20rem;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 6px 0px 0px 6px;
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 6px 6px 0px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 32px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.label1,
+.label2,
+.label3 {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: hsl(0, 0%, 95%);
+  border-width: 2px;
+  border-color: hsl(0, 0%, 95%);
+  text-align: center;
+  padding: 7px;
+  width: 8rem;
+  border-radius: 30px;
+  transition-duration: 500ms;
+}
+
+.label1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.label1:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.label2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.label2:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.label3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.label3:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 6px 0px 0px;
+  }
+
+  .card2 {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 6px 6px;
+  }
+}
