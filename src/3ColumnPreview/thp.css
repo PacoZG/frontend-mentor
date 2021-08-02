@@ -13,11 +13,6 @@
   width: 55px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 .main {
   display: flex;
   flex-direction: row;
@@ -56,7 +51,7 @@
   font-size: 32px;
 }
 
-p {
+.paraph {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
