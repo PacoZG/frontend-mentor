@@ -9,9 +9,9 @@ const TCP = () => {
     <div className="container">
       <div className="main">
         <div className="card1">
-          <img className="" src={suvs} alt="suvs" />
-          <h1>SEDANS</h1>
-          <p>
+          <img className="img" src={suvs} alt="suvs" />
+          <h1 className="header">SEDANS</h1>
+          <p className="paraph">
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>
@@ -20,9 +20,9 @@ const TCP = () => {
           </label>
         </div>
         <div className="card2">
-          <img className="" src={sedans} alt="sedans" />
-          <h1>SUVS</h1>
-          <p>
+          <img className="img" src={sedans} alt="sedans" />
+          <h1 className="header">SUVS</h1>
+          <p className="paraph">
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>
@@ -31,9 +31,9 @@ const TCP = () => {
           </label>
         </div>
         <div className="card3">
-          <img className="" src={luxury} alt="luxury" />
-          <h1>LUXURY</h1>
-          <p>
+          <img className="img" src={luxury} alt="luxury" />
+          <h1 className="header">LUXURY</h1>
+          <p className="paraph">
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>

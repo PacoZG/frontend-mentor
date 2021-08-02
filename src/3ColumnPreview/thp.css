@@ -9,7 +9,7 @@
   --text-light-gray: hsl(0, 0%, 95%);
 }
 
-img {
+.img {
   width: 55px;
 }
 
@@ -50,7 +50,7 @@ img {
   border-radius: 0px 6px 6px 0px;
 }
 
-h1 {
+.header {
   color: hsl(0, 0%, 95%);
   font-family: "Big Shoulders Display", cursive;
   font-size: 32px;
